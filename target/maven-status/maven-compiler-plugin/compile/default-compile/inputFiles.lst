@@ -1,0 +1,6 @@
+/home/jcd/cursoJava/angularJavaEE/persona-backend-java/src/main/java/co/com/jcd/personabackend/web/JAXRSActivator.java
+/home/jcd/cursoJava/angularJavaEE/persona-backend-java/src/main/java/co/com/jcd/personabackend/data/PersonaDaoImpl.java
+/home/jcd/cursoJava/angularJavaEE/persona-backend-java/src/main/java/co/com/jcd/personabackend/data/PersonaDao.java
+/home/jcd/cursoJava/angularJavaEE/persona-backend-java/src/main/java/co/com/jcd/personabackend/entity/Persona.java
+/home/jcd/cursoJava/angularJavaEE/persona-backend-java/src/main/java/co/com/jcd/personabackend/web/CorsFilter.java
+/home/jcd/cursoJava/angularJavaEE/persona-backend-java/src/main/java/co/com/jcd/personabackend/service/PersonaServiceRS.java

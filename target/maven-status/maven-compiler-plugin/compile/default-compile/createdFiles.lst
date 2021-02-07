@@ -1,0 +1,6 @@
+co/com/jcd/personabackend/web/CorsFilter.class
+co/com/jcd/personabackend/web/JAXRSActivator.class
+co/com/jcd/personabackend/service/PersonaServiceRS.class
+co/com/jcd/personabackend/entity/Persona.class
+co/com/jcd/personabackend/data/PersonaDaoImpl.class
+co/com/jcd/personabackend/data/PersonaDao.class
