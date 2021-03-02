@@ -74,9 +74,15 @@ public class PersonaServiceRS {
     @Produces(value = MediaType.APPLICATION_JSON)
     @Path("{id}")
     public Response eliminarPersona(@PathParam("id") int id){
-        personaDao.eliminarPersona(new Persona(id));
-        System.out.println("persona eliminada con el id: "+ id);
-        return Response.ok().build();
+        try {
+            Persona persona = personaDao.encontrarPersona(new Persona(id));
+            personaDao.eliminarPersona(persona);
+            System.out.println("persona eliminada con el id: "+ id);
+            return Response.ok().build();
+        } catch(Exception ex){
+            ex.printStackTrace();
+            return Response.serverError().build();
+        }
     }
     
 }
